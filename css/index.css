@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+/* @font-face {
+    font-family: 'silkaregular';
+    src: url('silka-regular-webfont.eot');
+    src: url('silka-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('silka-regular-webfont.woff2') format('woff2'),
+         url('silka-regular-webfont.woff') format('woff'),
+         url('silka-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'silkaregular_italic';
+    src: url('silka-regularitalic-webfont.eot');
+    src: url('silka-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('silka-regularitalic-webfont.woff2') format('woff2'),
+         url('silka-regularitalic-webfont.woff') format('woff'),
+         url('silka-regularitalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+	
+} */
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+	#hide-footer{
+		display: none;
+	}
+ } */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+
+
+body{
+	font-family: 'silka';
+}
+
+
+
+
+/* slider */
+div.jumbotron.carousel-hero {
+	color: #0083CA;
+	text-align:left;
+
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 0;
+  }
+  
+  div.jumbotron.hero-nature {
+	background-image: url('../images/landing_01.png');
+  }
+  
+  div.jumbotron.hero-photography {
+	background-image: url('../images/landing_02.png');
+  }
+  
+  div.jumbotron.hero-technology {
+	background-image: url('../images/landing_3.png');
+  }
+  
+  h1.hero-title  {
+	text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+	color:#0083CA;
+	font-size: 80px;
+  }
+  
+  h3.hero-title,h2.hero-title{
+	  color: white;
+  }
+
+  .hero-button{
+	  color: white;
+  }
+
+  /* jumbotron */
+.jumbotron{	
+	background-size: cover;
+	/* margin-top: -150px; */
+	height: 768px;
+	
+}
+
+.text-landing{
+/*
+	font-size: 80px;
+	margin-top: 100px;
+	margin-left: 100px;
+*/
+	color: #0083CA;
+}
+  
+  /* Tutup Slider------------------------------------------------ */
+
+  
+/* card */
+.card{
+	border-radius: 25px;
+	margin-top: 20px;
+	
+
+}
+
+/* konten */
+#konten{
+	background-color: #E0EFF0;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	
+}
+
+
+
+/* footer */
+/* #footer{
+	margin-top: 50px;
+}
+
+#footer-logo{
+	margin-bottom: 24px;
+}
+
+
+
+.form-sub{
+	display:inline-block;
+	width: 80%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #49505700;
+	background-color: #771f1f00;
+	background-clip: padding-box;
+	border: 1px solid #9A9B9F;
+	border-top-color: rgb(154, 155, 159);
+	border-top-style: none;
+	border-top-width: 1px;
+	border-right-color: rgb(154, 155, 159);
+	border-right-style: none;
+	border-right-width: 1px;
+	border-bottom-color: rgb(154, 155, 159);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(154, 155, 159);
+	border-left-style: none;
+	border-left-width: 1px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: unset;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.submit{
+	background-color: transparent;
+	border: none;
+} */
+

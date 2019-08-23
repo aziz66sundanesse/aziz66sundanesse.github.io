@@ -1,0 +1,49 @@
+body{
+    font-family: 'silka';
+}
+/* landing */
+.jumbotron{
+    background-size: cover;
+    background-image: url(../images/kegiatan/landing.png);
+    height: 768px;
+}
+
+.display-4{
+    font-size: 80px;
+    margin-top: 158px;
+    color: white;
+    font-weight: 400;
+}
+
+.card{
+    background-color: transparent;
+    margin-top: 50px;
+    border: none;
+}
+
+.card-title,.card-text{
+    color: white;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px
+
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-img-top{
+    width: 60%;
+}
+
+
+/* footer */
+
+#footer{
+	margin-top: 50px;
+}
+
+#footer-logo{
+	margin-bottom: 24px;
+}

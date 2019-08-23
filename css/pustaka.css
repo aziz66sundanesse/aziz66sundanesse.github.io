@@ -1,0 +1,91 @@
+.jumbotron{
+    background-size: cover;
+    background-image: url(/images/pustaka/landingpustaka1.png);
+    height: 500px;
+    /* z-index: -1; */
+}
+
+
+
+.card{
+    border-radius: 1rem;
+    background-color: #0083CA;
+    display: inline-block;
+}
+
+/* @media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+} */
+
+/* katagori tombol */
+.btn{
+    border: 1px solid #9A9B9F;
+    border-radius: 90rem;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-left: 100px;;
+    
+}
+
+
+
+
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 4;
+    }
+
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+
+
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        /* -webkit-column-count: 5;
+        -moz-column-count: 5; */
+        column-count: 6;
+
+    }
+
+
+}
+
+@media (max-width: 576px) { 
+    /* .scrolling-wrapper{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    } */
+
+    
+    /* .card{
+        display: inline-block;
+        height: 220px;
+        width: 170px;  
+    } */
+
+    /* .card {
+        max-width: 170px;
+      } */
+
+    /* .card-title{
+        display: inline;
+
+
+    } */
+ }

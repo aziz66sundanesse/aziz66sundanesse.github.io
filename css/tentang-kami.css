@@ -1,0 +1,65 @@
+body{
+    font-family: 'silka';
+}
+/* jumbotron */
+.jumbotron{
+    background-size: cover;
+    background-image: url(../images/tentengkami/landing-about.png);
+    height: 768px;
+}
+
+/* teks landing */
+.display-4{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.lead{
+    margin-top: 180px;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+/* sesi sejarah */
+#sejarah{
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    padding-top: 45px;
+    padding-bottom: 23px;
+}
+
+#teks-sejarah, #teks-misi, #teks-visi, #teks-patner, #teks-tim{
+    color: #0083CA;
+}
+
+/* sesi visi */
+#visi{
+    padding-top: 30px;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+   
+}
+
+/* pembatas */
+#batas2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* sesi tim kami */
+#tim{
+    background-color: #E0EFF0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#teks-tim{
+    padding-bottom: 20px;
+}
+
+/* sesi patner */
+#patner{
+    padding-top: 70px;
+}

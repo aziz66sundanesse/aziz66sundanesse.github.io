@@ -1,0 +1,28 @@
+/* katagori tombol */
+.btn{
+    border: 1px solid #9A9B9F;
+    border-radius: 90rem;
+    margin-bottom: 20px;
+    
+}
+
+/* teks artikel */
+#teks-artikel{
+    color: #0083CA;
+}
+
+/* navigasi */
+.page-link {
+    color: #9A9B9F;
+    background-color: #fff;
+    border: transparent;
+}
+
+#dokumentasi{
+    margin-top: 150px;
+}
+
+aside{
+	margin-top: 420px;
+
+}

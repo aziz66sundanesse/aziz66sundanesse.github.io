@@ -1,0 +1,31 @@
+body{
+    font-family: 'silka'
+}
+/* jumbotron */
+.jumbotron{
+    background-size: cover;
+    background-image: url(/images/event/landingevent1.png);
+    height: 435px;
+    /* z-index: -1; */
+}
+
+.display-4{
+    font-size: 80px;
+}
+
+/* navigasi */
+.page-link {
+    color: #9A9B9F;
+    background-color: #fff;
+    border: transparent;
+}
+
+/* katagori tombol dropdown */
+.btn{
+    border: 1px solid #9A9B9F;
+    border-radius: 90rem;
+    margin-bottom: 20px;
+    
+}
+
+

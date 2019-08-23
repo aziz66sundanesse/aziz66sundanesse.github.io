@@ -1,0 +1,9 @@
+body{
+    font-family: 'silka';
+}
+.jumbotron{
+    background-size: cover;
+    background-image: url(/images/kesehatanjiwa/landing-kesehatan-jiwa.png);
+    height: 640px;;
+    /* z-index: -1; */
+}
