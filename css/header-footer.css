@@ -1,3 +1,6 @@
+
+
+
 @media (max-width: 576px) { 
 	#hide-footer{
 		display: none;
@@ -14,7 +17,7 @@
 
 
 body{
-	font-family: 'silka'
+	font-family: "silkaregular", sans-serif ;
 }
 
 aside{
@@ -26,12 +29,6 @@ aside{
 }
 
 /* header */
-.navbar{
-	/* background-color: rgba(0,0,0,0); */
-	/* src: url('font/Silka-Regular-&-Italic-Webfont/silka-regular-webfont.woff2') format('woff2'); */
-	font-weight: normal;
-	font-style: normal;
-}
 
 .opaque-navbar {
     background-color: rgba(0,0,0,0);
