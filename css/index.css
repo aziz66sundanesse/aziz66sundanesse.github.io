@@ -112,20 +112,6 @@ div.jumbotron.carousel-hero {
 }
 
 
-
-/* footer */
-/* #footer{
-	margin-top: 50px;
-}
-
-#footer-logo{
-	margin-bottom: 24px;
-}
-
-
-
-
-
 .submit{
 	background-color: transparent;
 	border: none;
@@ -140,4 +126,10 @@ div.jumbotron.carousel-hero {
 
 .j-dd{
 	line-height: 1.8;
+}
+
+
+/* dropdown hidi icon */
+.dropdown-toggle::after {
+	display:none;	
 }
