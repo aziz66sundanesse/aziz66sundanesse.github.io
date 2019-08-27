@@ -44,6 +44,11 @@ aside{
 	color: #FFBE53;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 14px;
+    padding-left: 15px;
+}
+
 /* tutup navbar */
 
 
