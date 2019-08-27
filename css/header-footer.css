@@ -40,6 +40,10 @@ aside{
     transition: background-color .5s ease 0s;
 }
 
+.nav-link:hover{
+	color: #FFBE53;
+}
+
 /* tutup navbar */
 
 
@@ -56,15 +60,16 @@ aside{
 
 
 .form-sub{
+	
 	display:inline-block;
 	width: 80%;
 	height: calc(1.5em + .75rem + 2px);
-	padding: none;
+	padding: 0;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: #49505700;
-	background-color: #771f1f00;
+	color:black;
+	background-color: white;
 	background-clip: padding-box;
 	border: 1px solid #9A9B9F;
 	border-top-color: rgb(154, 155, 159);
@@ -124,12 +129,25 @@ aside{
 .fsl{
 	font-family: 'silkalight';
 }
+.fsri{
+	font-family: 'silkaregular_italic';
+}
+
 .f-os{
 	/* font open sans */
 	font-family: 'Open Sans', sans-serif;
 }
 .fossb{
+	/* semi bold */
 	font-weight: 600;
+}
+.fosb{
+	/*  bold */
+	font-weight: 700;
+}
+.fosl{
+	/* light */
+	font-weight: 300;
 }
 
 /* ukuran huruf */

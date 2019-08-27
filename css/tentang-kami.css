@@ -30,9 +30,7 @@ body{
     padding-bottom: 23px;
 }
 
-#teks-sejarah, #teks-misi, #teks-visi, #teks-patner, #teks-tim{
-    color: #0083CA;
-}
+
 
 /* sesi visi */
 #visi{
@@ -62,4 +60,10 @@ body{
 /* sesi patner */
 #patner{
     padding-top: 70px;
+}
+
+.carousel-indicators {
+    position: relative;
+    justify-content: flex-end;
+
 }
