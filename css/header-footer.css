@@ -51,7 +51,10 @@ aside{
 
 /* tutup navbar */
 
-
+/* landing */
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0;
+}
 
 /* footer */
 #footer{
