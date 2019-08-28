@@ -10,3 +10,7 @@ aside{
 .dropdown-toggle::after {
 	display:none;	
 }
+
+.pb-1, .py-1 {
+    width: 25px;
+}
