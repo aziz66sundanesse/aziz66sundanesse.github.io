@@ -31,3 +31,15 @@ aside{
     background-color: white;
 
 }
+
+#dropdown-toggle {
+    width: 255px !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 150px;
+}
+
+.dropdown-menu.show {
+    width: 255px;
+}
