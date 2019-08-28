@@ -27,7 +27,7 @@
     border-radius: 90rem;
     margin-bottom: 20px;
     margin-top: 25px;
-    margin-left: 100px;;
+
     
 }
 
@@ -89,3 +89,15 @@
 
     } */
  }
+
+ #dropdown-toggle {
+    width: 255px !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 150px;
+}
+
+.dropdown-menu.show {
+    width: 255px;
+}
