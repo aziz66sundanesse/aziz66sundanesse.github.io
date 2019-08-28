@@ -101,3 +101,7 @@
 .dropdown-menu.show {
     width: 255px;
 }
+
+.hiv, .publikasi, .regulasi{
+    margin-top: 70px;
+}
