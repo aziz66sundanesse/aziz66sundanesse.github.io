@@ -3,9 +3,11 @@ body{
 }
 /* jumbotron */
 .jumbotron{
+    margin-top: -70px;
     background-size: cover;
     background-image: url(../images/tentengkami/landing-about.png);
-    height: 768px;
+    height: 850px;
+    
 }
 
 /* teks landing */
