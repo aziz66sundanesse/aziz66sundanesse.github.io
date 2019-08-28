@@ -155,6 +155,7 @@ div.jumbotron.carousel-hero {
 .dropdown-toggle::after {
 	display:none;	
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 

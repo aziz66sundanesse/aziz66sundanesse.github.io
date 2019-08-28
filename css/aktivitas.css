@@ -47,3 +47,7 @@ body{
 #footer-logo{
 	margin-bottom: 24px;
 }
+
+.dropdown-toggle::after {
+	display:none;	
+}

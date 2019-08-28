@@ -6,3 +6,7 @@ aside{
 	margin-top: 420px;
 
 }
+
+.dropdown-toggle::after {
+	display:none;	
+}
