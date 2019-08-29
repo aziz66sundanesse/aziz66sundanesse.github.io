@@ -105,3 +105,8 @@
 .hiv, .publikasi, .regulasi{
     margin-top: 70px;
 }
+
+/* tombol arah pelajari selengkapnya */
+.pb-1, .py-1 {
+    padding-top: 6px;
+}
