@@ -26,6 +26,11 @@ aside{
 
 }
 
+.side{
+	width: 30px;
+	height: 30px;
+}
+
 /* header */
 
 .opaque-navbar {
