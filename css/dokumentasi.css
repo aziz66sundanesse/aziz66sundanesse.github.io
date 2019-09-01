@@ -44,3 +44,7 @@ aside{
     width: 255px;
 }
 
+.rounded {
+    border-radius: 25px !important;
+}
+

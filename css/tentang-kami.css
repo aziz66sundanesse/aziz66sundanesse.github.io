@@ -95,3 +95,8 @@ body{
     display: block;
     margin-top: 0; 
  }
+
+ /* border radius tim kami */
+ .rounded {
+    border-radius: 25px;
+}
