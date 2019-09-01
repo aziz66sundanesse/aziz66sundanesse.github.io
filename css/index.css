@@ -167,7 +167,25 @@ div.jumbotron.carousel-hero {
     border-top-right-radius: 25px!important;
 }
 
-.gambar{
-	padding-bottom: -50px;
-}
 
+/* gambara konten utama */
+.gambar{
+	object-fit: cover;
+
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+	/* object-position: 100% 0; */
+	
+	width: 540px;
+	height: 250px;
+  }
+
+/* gambar konten 2 */
+.gambar2{
+	object-fit: cover;
+
+	/* 		sumbu 		x,y		jika tudak di atur maka akan fokus ke tengah */
+	/* object-position: 100% 0; */
+	
+	width: 350px !important ;
+	height: 128px !important;
+  }
