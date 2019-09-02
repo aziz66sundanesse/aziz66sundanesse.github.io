@@ -98,5 +98,16 @@ body{
 
  /* border radius tim kami */
  .rounded {
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
+
+/* gambara konten tim */
+.img-tim{
+	object-fit: cover;
+
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+	/* object-position: 100% 0; */
+	
+	width: 256px;
+	height: 350px;
+  }

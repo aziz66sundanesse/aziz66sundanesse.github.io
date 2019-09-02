@@ -190,8 +190,8 @@ div.jumbotron.carousel-hero {
 	height: 128px !important;
   }
 
-  /* card-coloum kartu loop 4 x */
-  @media (min-width: 576px){
+/* card-coloum kartu loop 4 x */
+@media (min-width: 576px){
 	.card-columns {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
@@ -199,3 +199,11 @@ div.jumbotron.carousel-hero {
 
 	}
 }
+
+/* #card-a{
+	height: 533px
+}
+
+#card-b{
+	height: 256px
+} */
