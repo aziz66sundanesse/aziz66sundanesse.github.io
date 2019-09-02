@@ -242,4 +242,13 @@ aside{
     margin-top: 0; 
  }
 
+ /* dropdown arah awah */
+ .dropdown-toggle::after {
+    display: none;
+}
+
+.fa-caret-down:before {
+    margin-left: 150px;
+}
+
 

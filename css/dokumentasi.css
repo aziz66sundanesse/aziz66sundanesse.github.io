@@ -36,14 +36,12 @@ aside{
     width: 255px !important;
 }
 
-.dropdown-toggle::after {
-    margin-left: 150px;
-}
 
 .dropdown-menu.show {
     width: 255px;
 }
 
+/* border radius gambar */
 .rounded {
     border-radius: 25px !important;
 }
