@@ -15,15 +15,23 @@ body{
 
 /* border artikel */
 .rounded {
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
 
-.gambar{
+.gambar1{
+object-fit: cover;
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+	/* object-position: 50% 100%; */
+	width: 347px;
+	height: 484px;
+  }
+
+  .gambar2{
 	object-fit: cover;
 
 	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
 	/* object-position: 100% 0; */
 	
-	width: 370px;
+	width: 347px;
 	height: 218px;
   }
