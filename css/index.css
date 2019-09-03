@@ -33,7 +33,10 @@ body{
 }
 
 .konten-utama{
-	padding: 35px;
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 27px;
 }
 
 /* slider */
@@ -200,10 +203,16 @@ div.jumbotron.carousel-hero {
 	}
 }
 
-/* #card-a{
-	height: 533px
+/* card isi konten utama */
+.card-a{
+	height: 120px !important;
+	/* width: 460px !important; */
+	overflow: hidden;
 }
 
-#card-b{
-	height: 256px
-} */
+/* isi konten kedua */
+.card-b{
+	height: 35px !important;
+	/* width: 460px !important; */
+	overflow: hidden;
+}
