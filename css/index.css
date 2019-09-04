@@ -204,14 +204,20 @@ div.jumbotron.carousel-hero {
 }
 
 /* card isi konten utama */
-.card-a{
+.judul-a{
+	height: 53px !important;
+	/* width: 460px !important; */
+	overflow: hidden;
+}
+
+.isi-a{
 	height: 120px !important;
 	/* width: 460px !important; */
 	overflow: hidden;
 }
 
 /* isi konten kedua */
-.card-b{
+.judul-b {
 	height: 35px !important;
 	/* width: 460px !important; */
 	overflow: hidden;
