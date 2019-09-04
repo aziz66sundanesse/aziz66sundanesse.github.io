@@ -75,14 +75,7 @@ body{
     line-height: 2;
 }
 
-.carousel-indicators li {
-    width: 8px;
-    height: 8px;
-    margin-right: 5px;
-    margin-left: 5px;
-    background-color: #FFBE53;
 
-}
 
 .carousel-indicators{
     margin-right: 2%;
@@ -111,3 +104,37 @@ body{
 	width: 256px;
 	height: 350px;
   }
+
+
+
+  .swiper-pagination {
+    position: relative !important;
+    text-align: center !important;
+
+}
+
+
+    /* mobile version */
+    @media (max-width: 576px) { 
+        .img-tim{
+            object-fit: cover;
+    
+        /* 		sumbu 		x,y		jika tudak di atur maka akan fokus ke tengah */
+        /* object-position: 100% 0; */
+        
+        height: 137px !important;
+        width: 100px !important;
+        }
+    
+        .rounded {
+            border-radius: 10px !important;
+        }
+    
+        .swiper-button-prev, .swiper-button-next{
+            display: none;
+        }
+
+        .display-4 {
+            font-size: 60px;
+        }
+    }
