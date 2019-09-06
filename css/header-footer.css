@@ -1,4 +1,4 @@
-
+/* mobile version */
 @media (max-width: 576px) { 
 	#hide-footer{
 		display: none;
@@ -10,6 +10,19 @@
 
 	.navbar-collapse{
 		background-color: #fff;
+	}
+
+	/* footer logo */
+	#footer-logo{
+		float: left;
+		padding-right: 30px;
+	}
+
+	.text-footer{
+		display: inline;
+		font-size: 9px !important;
+		padding-left: 20px;
+
 	}
  }
 

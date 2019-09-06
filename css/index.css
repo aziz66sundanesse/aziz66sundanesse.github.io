@@ -193,14 +193,17 @@ div.jumbotron.carousel-hero {
 	height: 128px !important;
   }
 
-/* card-coloum kartu loop 4 x */
+
 @media (min-width: 576px){
+	/* card-coloum kartu loop 4 x */
 	.card-columns {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
 
 	}
+
+	
 }
 
 /* card isi konten utama */
@@ -222,3 +225,4 @@ div.jumbotron.carousel-hero {
 	/* width: 460px !important; */
 	overflow: hidden;
 }
+
