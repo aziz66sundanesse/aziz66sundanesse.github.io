@@ -189,7 +189,7 @@ div.jumbotron.carousel-hero {
 	/* 		sumbu 		x,y		jika tudak di atur maka akan fokus ke tengah */
 	/* object-position: 100% 0; */
 	
-	width: 350px !important ;
+	width: 100% !important ;
 	height: 128px !important;
   }
 
