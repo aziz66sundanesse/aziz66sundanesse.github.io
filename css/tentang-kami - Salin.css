@@ -119,6 +119,86 @@ body{
 }
 
 
+/* modal */
+.img-modal{
+	object-fit: cover;
+
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+	/* object-position: 100% 0; */
+	
+	width: 100%;
+    height: 300px;
+    
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+  }
+
+.modal-card{
+    border-color: transparent !important;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border: 0px !important;
+}
+
+.modal-body{
+    padding: 0;
+}
+
+.modal-content{
+    border-radius: 25px;
+}
+
+.nama-tim{
+    overflow: hidden;
+    height: 35px;
+    font-family: 'silkabold';
+    font-size: 26px;
+    letter-spacing: 0.52px;
+    text-align: left;
+    color: #0083ca;
+}
+
+.jab-tim{
+    overflow: hidden;
+    width: 293px;
+    height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.konten-tim{
+    height: 200px;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: -0.15px;
+    text-align: left;
+    color: #707070;
+    padding-right: 20px;
+  
+}
+
+.card-body{
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+/* tutup modal */
+
+
     /* mobile version */
 @media (max-width: 576px) { 
     .img-tim{

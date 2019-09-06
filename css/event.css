@@ -40,3 +40,18 @@ body{
     width: 255px;
 }
 
+
+/* gamabar event */
+.img-event{
+	object-fit: cover;
+
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+	/* object-position: 100% 0; */
+	
+	width: 347px;
+    height: 218px;
+    
+    border-radius: 25px;
+
+    
+  }

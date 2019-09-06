@@ -242,7 +242,7 @@
                     <div class="swiper-wrapper">
                         <!-- OJI ini looping -->
                         <div class="swiper-slide">
-                            <a href="#">
+                            <a class="popup" data-toggle="modal" data-target="#modal-tim"> <!-- ini class modal atau popup -->
                                 <img class="rounded img-fluid img-tim" src="images/landing_01.png" alt="Image" style="max-width:100%;">
                             </a>
                         </div>
@@ -296,6 +296,31 @@
         </div>   
     </section>
     <!-- tutup team -->
+
+    <!-- Modal/popup -->
+    <div class="modal fade" id="modal-tim" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content shadow">
+          <div class="modal-body">
+              <div class="card modal-card " > 
+                  <img class=" img-modal" src="images/Oji.png" alt="Image" > <!-- Modal content-->   
+                  <div class="card-body">
+                      <h3 class="nama-tim">Nuroji Lukmansyah</h3>
+                      <h4 class="jab-tim">Kepala pusat penelitian pph unika atmajaya</h4>
+                      <p class="konten-tim">Epremolupit venime nonsed quibusci dolorru mquatur am volupti tenis repe optamusae nis estem. Et adia qui demquos delento </p>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- tutup Modal/popup -->
 
     <!-- patner -->
     <section id="patner">
