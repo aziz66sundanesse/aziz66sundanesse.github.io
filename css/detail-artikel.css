@@ -7,6 +7,7 @@ aside{
 
 }
 
+/* header */
 .dropdown-toggle::after {
 	display:none;	
 }
@@ -14,6 +15,13 @@ aside{
 .pb-1, .py-1 {
     width: 25px;
 }
+/* tutup header */
+
+
+/* konten artikel */
+
+/* tutup konten artikel */
+
 
 /* ditail-pustaka */
 /* modal download */
@@ -27,6 +35,10 @@ aside{
     font-size: 32px;
     color: #0083ca;
     margin-bottom: 20px;
+}
+
+.modal-content{
+    border-radius: 20px;
 }
 
 .form-control {
@@ -67,3 +79,19 @@ label{
 }
 /* tutup modal download */
 /* tutup ditail-pustaka */
+
+/* news */
+.news{
+    margin-top: 580px;
+}
+/* tutup news */
+
+/* mobile version */
+@media (max-width: 576px){
+    /* news */
+    .news{
+        margin-top: 580px;
+    }
+    /* tutup news */
+    }
+/* mobile version */

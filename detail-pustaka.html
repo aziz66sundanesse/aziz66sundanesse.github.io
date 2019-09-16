@@ -135,7 +135,8 @@
     <!-- detail berita -->
     <section class="artikel">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-start">
+                <div class="col-md-2"></div>
                 <div class="col-md-7">
                     <h6 class="f-12 f-bm f-os fossb">Penelitian</h6>
                     <h2 class="f-36 fssb">Cuptatem Dit Harum Dolluptum Quam Ut Officiatem Il Ipsam?</h2>
@@ -173,7 +174,7 @@
                     </p>
 
                     <!-- popup download -->
-                    <div class="modal fade" id="modal-download" role="dialog">
+                    <div class="modal fade " id="modal-download" role="dialog">
                         <div class="modal-dialog">
                       
                           <!-- Modal content-->
@@ -182,24 +183,23 @@
                                 <h3>Data diri</h3>
                                 <form action="#dowanload" method="post">
                                     <div class="form-group">
-                                      <label  for="">Nama</label>
-                                      <input type="text" name="nama" id="" class="form-control" placeholder="" >
+                                      <label  for="nama">Nama</label>
+                                      <input type="text" name="nama" id="nama" class="form-control" placeholder="" required>
                                     </div>
                                     <div class="form-group">
                                       <label for="email">Email</label>
-                                      <input type="text" name="email" id="email" class="form-control" placeholder="" >
+                                      <input type="text" name="email" id="email" class="form-control" placeholder="" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="recaptcha">Captcha</label>
                                         <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                                         <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha" name="recaptcha">
                                         <div class="help-block with-errors"></div>
+                                        <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
                                     </div>
-                                    <!-- Load Librari Google reCaptcha nya -->
-                                    <script src='https://www.google.com/recaptcha/api.js'></script>
-
+                                    
                                     <div class="clear-fix tombol">
-                                        <button class="download btn btn-dark" type="submit" name="download">Download</button>
+                                        <button class="download btn btn-dark" type="submit" name="download" value="submit">Download</button>
                                         <button type="button" class="tutup-modal float-right" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
                                     </div>
                                 </form>
