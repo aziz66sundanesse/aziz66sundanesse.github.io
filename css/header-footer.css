@@ -18,12 +18,12 @@
 		padding-right: 30px;
 	}
 
-	.text-footer{
+	/* .text-footer{
 		display: inline;
 		font-size: 9px !important;
 		padding-left: 20px;
 
-	}
+	} */
 
 	/* .fa-caret-down:before {
 		margin-left: 0px;
@@ -299,10 +299,10 @@ aside{
     margin-left: 150px;
 }
 
-@media(min-width:576px){
+/* @media(min-width:576px){
 	.fa-caret-down:before {
 		margin-left: 0px;
 	}
-}
+} */
 
 
