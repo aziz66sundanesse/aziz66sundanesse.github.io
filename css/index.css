@@ -242,7 +242,7 @@ div.jumbotron.carousel-hero {
     outline: 0;
     border: 0;
     display: none;
-    font-size: 1em;
+    font-size: 8px;
     border-radius: 20px;
 	padding: 0 20px;
 	background:rgb(200, 228, 231);
@@ -264,7 +264,7 @@ div.jumbotron.carousel-hero {
 }
 
 .search:hover{
-    width: 150px;
+    width: 170px;
     /* cursor: pointer; */
 }
 
@@ -276,4 +276,5 @@ div.jumbotron.carousel-hero {
     /* background: rgb(92, 211, 226); */
     color:  #0083CA;
 }
+
 
