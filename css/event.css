@@ -124,6 +124,10 @@ body{
     border: none;
     background-color: transparent;   
 }
+
+.clear-fix{
+    padding-top: 10px;
+}
   /* tutup modal event */
 
 /* mobile version */

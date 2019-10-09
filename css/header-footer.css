@@ -102,6 +102,74 @@ aside{
     padding-left: 15px;
 }
 
+.gambar-acount, .icon-search{
+	height: 30px;
+	padding-bottom: 5px;
+	color:#0083CA;
+}
+
+.search{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 35px;
+    height: 35px;
+    background:rgb(200, 228, 231);
+    box-sizing: border-box;
+    border-radius: 25px;
+    /* border: 4px solid rgb(200, 228, 231); */
+	padding: 3px;
+	margin-right: 5px;
+}
+
+.inputCari{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 35px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 8px;
+    border-radius: 20px;
+	padding: 0 20px;
+	background:rgb(200, 228, 231);
+}
+
+.cari{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #0083CA;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.search:hover{
+    width: 170px;
+    /* cursor: pointer; */
+}
+
+.search:hover .inputCari{
+    display: block;
+}
+
+.search:hover .cari{
+    /* background: rgb(92, 211, 226); */
+    color:  #0083CA;
+}
+
+
 /* tutup navbar */
 
 /* landing */
@@ -118,7 +186,9 @@ aside{
 	margin-bottom: 24px;
 }
 
-
+.icon-sn{
+	width: 24px;
+}
 
 .form-sub{
 	

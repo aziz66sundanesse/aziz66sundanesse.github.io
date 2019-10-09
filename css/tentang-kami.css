@@ -32,6 +32,9 @@ body{
     padding-bottom: 23px;
 }
 
+/* .our-history{
+    margin-top: 5px;
+} */
 
 
 /* sesi visi */
@@ -49,10 +52,16 @@ body{
 }
 
 /* sesi tim kami */
+.tim-kami{
+    padding-left: 20px;
+    
+    
+}
+
 #tim{
     background-color: #E0EFF0;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #teks-tim{
@@ -118,7 +127,7 @@ body{
 	object-fit: cover;
 
 	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
-	/* object-position: 100% 0; */
+	object-position: 100% 0;
 	
 	width: 100%;
     height: 300px;
