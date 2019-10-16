@@ -31,6 +31,7 @@
   letter-spacing: normal;
   text-align: left;
   color: #0c59b0;
+  overflow: hidden;
 }
 
 .isi{
@@ -71,4 +72,32 @@
 
 .garis-bawah{
     margin-top: 45px;
+}
+
+/* mobile version */
+ @media (max-width: 576px){
+  .gambar{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .judul{
+    height: 45px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+
+  .isi{
+    height: 45px;
+    font-size: 10px;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+
+  .link{
+    font-size: 10px;
+  }
 }
