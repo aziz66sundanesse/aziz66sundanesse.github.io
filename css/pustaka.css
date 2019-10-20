@@ -13,6 +13,12 @@
     display: inline-block;
 }
 
+.card-title{
+    height: 65px;
+    overflow: hidden;
+}
+
+
 /* @media (min-width: 34em) {
     .card-columns {
         -webkit-column-count: 2;
