@@ -108,7 +108,7 @@ aside{
     color: #707070;
   }
 
-  .isi{
+  .isi, .isi p{
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: normal;
