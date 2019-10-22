@@ -36,6 +36,10 @@ aside{
     color: white; 
 }
 
+.download a{
+    color: white; 
+}
+
 .dowanload-link{
     height: 30px;
     font-family: 'Open Sans';
