@@ -181,6 +181,18 @@ aside{
 /* footer */
 #footer{
 	margin-top: 50px;
+	/* font-display: ; */
+}
+
+.text-logo{
+	font-family: 'Open Sans';
+	font-size: 11px;
+	line-height: 1.36;
+	color: #9a9b9f;
+}
+
+.copyright{
+	font-family: 'silkaregular';
 }
 
 #footer-logo{
