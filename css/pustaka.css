@@ -5,7 +5,9 @@
     /* z-index: -1; */
 }
 
-
+.card-columns{
+    margin-top: 25px;
+}
 
 .card{
     border-radius: 1rem;
@@ -14,8 +16,36 @@
 }
 
 .card-title{
+    font-family: 'silkasemibold';
     height: 65px;
     overflow: hidden;
+    font-size: 14px;
+}
+
+.card-text{
+    font-family: 'silkaregular_italic';
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;   
+}
+
+.card-line{
+    border-top: 1px dotted white;
+}
+
+.small{
+  font-family: 'Opens sans';
+  font-size: 12px;
+  line-height: 1.42;
+  color: #9a9b9f;
+}
+
+.learn-more{
+    margin-top: 5px;
+    font-family: 'silkasemibold';
+    font-size: 14px;
+    color: #0083ca;
+  
 }
 
 
