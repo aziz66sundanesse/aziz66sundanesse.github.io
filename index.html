@@ -113,15 +113,17 @@
                     </ul>
                     <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
                         <li class="nav-item">
-                                <form class="search" action="">
-                                    <input class="inputCari" type="search" placeholder="The HIV AIDS Research Center">
-                                    <i class="cari fa fa-search"></i>
-                                </form>
+                          <div class="icon-cari">
+                            <form class="search" action="">
+                              <input class="inputCari"  placeholder="ketik kata kunci">
+                              <i class="cari fa fa-search"></i>
+                            </form>
+                          </div>
                             <!-- <a class="nav-link" id="searchBox" href=""><img src="images/baseline-search-24px.png" alt="" srcset=""></a>  -->
                         </li>
                         <!-- <li class="nav-item"><a class="nav-link" href=""><img class="icon-search" src="images/baseline-search-24px.png" alt="" srcset=""></a> </li> -->
-                        <li class="nav-item"><img src="images/Line 1.png" alt="" srcset=""></li>
-                        <li class="nav-item "><a class="nav-link" href=""><img class="gambar-acount" src="icon/account-24px.svg" alt="" srcset="">KM PPH</a> </li>
+                        <li class="nav-item"><img class="batasAkun" src="images/Line 1.png" alt="" srcset=""></li>
+                        <li class="nav-item "><div class=" linkAkun"><img class="gambar-acount" src="icon/account-24px.svg" alt="" srcset=""><a href="">KM PPH</a></div> </li>
                         <!-- <li class="nav-item"><a class="nav-link" href="">KM PPH</a> </li> -->
                     </ul>
                 </div>
@@ -314,42 +316,41 @@
                     <img id="footer-logo" src="images/LOGO.png">
                     <p class="text-logo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.</p>
                 </div>
-                <div class="col">
+                <div class="col-md-9">
 
                     <!-- footer baris ke 1 kolem ke 2 -->
                     <div class="row justify-content-around">
                         <div class="col-md-2" id="hide-footer">
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12 j-f">tentang kami</li>
-                                <li class="f-am f-11 j-f">sejarah</li>
-                                <li class="f-am f-11 j-f">visi dan misi</li>
-                                <li class="f-am f-11 j-f">nilai</li>
-                                <li class="f-am f-11 j-f">tim kami</li>
-                                <li class="f-am f-11 j-f">patner</li>
+                                <li class="footer-head">tentang kami</li>
+                                <li class="footer-item">sejarah</li>
+                                <li class="footer-item">visi dan misi</li>                              
+                                <li class="footer-item">tim kami</li>
+                                <li class="footer-item">mitra</li>
                             </ul>
                         </div>
                         <!-- id="hide-footer" -->
                         <div class="col-md-3  " id="hide-footer"  >
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12 j-f">kegiatan</li>
-                                <li class="f-am f-11 j-f">penelitian</li>
-                                <li class="f-am f-11 j-f">advokasi</li>
-                                <li class="f-am f-11 j-f">peningkatan kapasitas</li>
-                                <li class="f-am f-11 j-f">pelayanan kapasitas</li>
+                                <li class="footer-head">kegiatan</li>
+                                <li class="footer-item">penelitian</li>
+                                <li class="footer-item">advokasi</li>
+                                <li class="footer-item">peningkatan kapasitas</li>
+                                <li class="footer-item">pelayanan kapasitas</li>
                             </ul>
                         </div>
                         <div class="col-md-2" id="hide-footer">
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12 j-f">berita</li>
-                                <li class="f-am f-11 j-f">artikel berita</li>
-                                <li class="f-am f-11 j-f">liputan khusus</li>
+                                <li class="footer-head">berita</li>
+                                <li class="footer-item">dokumentasi</li>
+                                <li class="footer-item">artikel</li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul class="list-unstyled">
-                                <li class="f-12 fsm f-at">kontak</li>
-                                <li class="f-12 f-at fsm"><img class="mr-1" src="images/phone-icon.png" alt="" srcset=""> +62-21 570 3306, 575 7615 ext.624,425</li>
-                                <li class="f-12 f-at fsm"><img class="mr-1" src="images/mail-icon.png" alt="" srcset=""></i> pph@atmajaya.ac.id</li>
+                                <li class="footer-head">kontak</li>
+                                <li class="f-item-contact"><img class="mr-1" src="images/phone-icon.png" alt="" srcset=""> +62-21 570 3306, 575 7615 ext.624,425</li>
+                                <li class="f-item-mail"><img class="mr-1" src="images/mail-icon.png" alt="" srcset=""></i> pph@atmajaya.ac.id</li>
                             </ul>
                         </div>
                     </div>
@@ -358,36 +359,33 @@
                     <div class="row justify-content-around">
                         <div class="col-md-2" id="hide-footer">
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12">event</li>
+                                <li class="footer-head">event</li>
                             </ul>
                         </div>
                         <div class="col-md-3" id="hide-footer">
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12 j-f">pustaka</li>
-                                <li class="f-am f-11 j-f">tentang hiv & aids</li>
-                                <li class="f-am f-11 j-f">publikasi</li>
-                                <li class="f-am f-11 j-f">regulasi</li>
+                                <li class="footer-head">pustaka</li>
+                                <li class="footer-item">tentang hiv & aids</li>
+                                <li class="footer-item">publikasi</li>
+                                <li class="footer-item">regulasi</li>
                             </ul>
                         </div>
                         <div class="col-md-2" id="hide-footer">
                             <ul class="list-unstyled">
-                                <li class="f-at fsm f-12 j-f">kesehatan jiwa</li>
-                                <li class="f-am f-11 j-f">lorem</li>
-                                <li class="f-am f-11 j-f">ipsum</li>
-                                <li class="f-am f-11 j-f">dolor</li>
+                                <li class="footer-head">kesehatan jiwa</li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul class="list-unstyled">
-                                <li class="f-at f-12">Folow Us</li>
+                                <li class="footer-head">Folow Us</li>
                                 <a href="#"> <img class="icon-sn" src="icon/004-facebook-logo-button.svg" alt="" srcset="" ></a>
                                 <a href="#"> <img class="icon-sn" src="icon/003-twitter-logo-button.svg" alt="" srcset=""></a>
                                 <a href="#"> <img class="icon-sn" src="icon/002-instagram.svg" alt="" srcset=""></a>
                                 <br>
                                 <br>
-                                <h5 class="f-at f-12"> Subscribe Now.</h5>
+                                <h5 class="subscribe"> Subscribe Now.</h5>
                                 <form action="">
-                                    <input class="form-sub f-12 fam " type="email" name="email" id="email" placeholder="enter your email here">
+                                    <input class="form-sub mail-sub " type="email" name="email" id="email" placeholder="enter your email here">
                                     <button class="submit" type="submit"><img src="images/sub-icon.png" class="" alt="" srcset=""></button>
                                 </form>
                             </ul>

@@ -23,9 +23,6 @@
 
 
 
-body{
-	font-family: 'silka';
-}
 
 .gambar-acount{
 	margin-left: auto;
@@ -100,6 +97,13 @@ div.jumbotron.carousel-hero {
 	padding-top: 50px;
 	padding-bottom: 70px;
 	
+}
+
+.clearfix small{
+	font-family: 'Open Sans';
+	font-size: 12px;
+	line-height: 1.42;
+	color: #707070;
 }
 
 .submit{

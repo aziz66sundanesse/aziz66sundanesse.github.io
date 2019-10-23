@@ -125,6 +125,13 @@ aside{
 	margin-right: 5px;
 }
 
+/* .fa-search{
+	transform: translate(-80%,-20%);
+	transition: all 1s;
+	top: 50%;
+    left: 50%;
+} */
+
 .inputCari{
     position: absolute;
     top: 0;
@@ -135,10 +142,15 @@ aside{
     outline: 0;
     border: 0;
     display: none;
-    font-size: 8px;
+    font-size: 14px;
     border-radius: 20px;
 	padding: 0 20px;
 	background:rgb(200, 228, 231);
+}
+
+.icon-cari{
+	margin-top: 34px;
+	margin-right: 5px;;
 }
 
 .cari{
@@ -157,7 +169,7 @@ aside{
 }
 
 .search:hover{
-    width: 170px;
+    width: 165px;
     /* cursor: pointer; */
 }
 
@@ -168,6 +180,16 @@ aside{
 .search:hover .cari{
     /* background: rgb(92, 211, 226); */
     color:  #0083CA;
+}
+
+.batasAkun{
+	margin-top: 15px;
+}
+
+.linkAkun{
+	margin-left: 5px;
+	margin-top: 20px;
+	/* padding-top: 24px; */
 }
 
 
@@ -183,6 +205,36 @@ aside{
 	margin-top: 50px;
 	/* font-display: ; */
 }
+
+.footer-head{
+	font-family: 'silkamedium';
+	font-size: 12px;
+	letter-spacing: 0.36px;
+	color: #757679;
+}
+
+.footer-item{
+	font-family: 'silkaregular';
+	font-size: 11px;;
+	line-height: 1.8;
+	color: #757679;
+}
+
+.f-item-contact{
+  font-family: 'silkamedium';
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.06px;
+  color: #757679;
+}
+
+.f-item-mail{
+  font-family: 'silkamedium';
+  font-size: 11px;
+  line-height: 1.55;
+  color: #757679;
+}
+
 
 .text-logo{
 	font-family: 'Open Sans';
@@ -237,10 +289,26 @@ aside{
 	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.subscribe{
+  font-family: 'silkasemibold';
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  color: #757679;
+}
+
+.mail-sub{
+	font-family: 'silkasemibold';
+	font-size: 12px;
+	letter-spacing: 0.12px;
+	color: #757679;
+}
+
 .submit{
 	background-color: transparent;
 	border: none;
 }
+
+/* tutup footer */
 
 /*  huruf tebal */
 .f-t{
