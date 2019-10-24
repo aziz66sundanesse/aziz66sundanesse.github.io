@@ -206,6 +206,10 @@ aside{
 	/* font-display: ; */
 }
 
+.list-unstyled li  {
+	line-height: 1.2;
+}
+
 .footer-head{
 	font-family: 'silkamedium';
 	font-size: 12px;
@@ -216,16 +220,19 @@ aside{
 .footer-item{
 	font-family: 'silkaregular';
 	font-size: 11px;;
-	line-height: 1.8;
+	/* line-height: 1; */
 	color: #757679;
+	height: 16px;
+
 }
 
-.f-item-contact{
+.f-item-contact {
   font-family: 'silkamedium';
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.06px;
   color: #757679;
+  padding-top: 5px;
 }
 
 .f-item-mail{
@@ -233,6 +240,7 @@ aside{
   font-size: 11px;
   line-height: 1.55;
   color: #757679;
+  padding-top: 5px;
 }
 
 

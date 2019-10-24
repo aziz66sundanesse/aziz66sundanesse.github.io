@@ -2,6 +2,7 @@
 	padding-top: 150px;
 	padding-bottom: 150px;
 	background-color: #E9F0F0;
+	padding-left: 12%;
 }
 
 .batas{
@@ -32,6 +33,7 @@
 	line-height: 1.43;
 	color: #9a9b9f;  
 	margin-bottom: 45px;
+	padding-right: 45px;
   }
 
   .filter{
@@ -49,6 +51,10 @@
   }
 
   /* dropdown accordion */
+  .filter-head{
+	  width: 210px;
+  }
+
   .card{
 	background-color: #E9F0F0;
     border: 1px solid #E9F0F0;
@@ -119,18 +125,22 @@
     content: "\f107"; 
 }
 
+/* tutup accourdion */
+
 /* tabel */
 .tabel{
 	margin-top: 20px;
+	padding-right: 5%;
 }
 
 .table-bordered {
     border-radius: 10px;
 }
 
-#hiv_wrapper{
+#hiv_wrapper, #publikasi_wrapper, #regulasi_wrapper{
 	margin-top: 30px;
 }
+
 
 .custom-select {
     background-color: #E9F0F0;
