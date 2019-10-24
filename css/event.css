@@ -81,7 +81,6 @@ body{
 }
 
 .wak-event{
-    height: 42px;
     font-family: 'OpenSans' , sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -89,6 +88,7 @@ body{
     text-align: left;
     color: #9a9b9f;
 }
+
 
 .konten-event{
     height: 460px;
@@ -110,6 +110,12 @@ body{
     letter-spacing: 1.28px;
     text-align: center;
     color: #ffffff;
+}
+
+.i-event-s{
+    width: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .container-fluid {
