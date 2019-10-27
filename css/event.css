@@ -113,10 +113,13 @@ body{
     letter-spacing: 1.28px;
     text-align: center;
     color: #ffffff;
+    font-size: 14px;
+    background-color: black;
+
 }
 
 .i-event-s{
-    width: 35px;
+    width: 30px;
     margin-left: 10px;
     margin-bottom: 20px;
 }

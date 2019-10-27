@@ -7,6 +7,7 @@ body{
         background-image: url(/images/kontak/landing.png);
         height: 615px;
         z-index: -1;
+        border-radius: 0;
 }
 
 /* teks landing */

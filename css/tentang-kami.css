@@ -60,7 +60,7 @@ background-position: center top;
 .tim-kami{
     padding-left: 20px;
     
-    
+    padding-bottom: 30px;
 }
 
 #tim{
@@ -124,6 +124,7 @@ background-position: center top;
   .swiper-pagination {
     position: relative !important;
     text-align: center !important;
+    padding-top: 40px;
 
 }
 
