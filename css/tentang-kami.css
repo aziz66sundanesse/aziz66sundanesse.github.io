@@ -5,9 +5,14 @@ body{
 .jumbotron{
     margin-top: -70px;
     background-size: cover;
-    background-image: url(../images/tentengkami/landing-about.png);
+    background-image: url(../images/landing_3.png);
     height: 850px;
-    
+    border-radius: 0;
+    background-repeat: no-repeat;
+
+	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+background-position: center top;	
+   
 }
 
 /* teks landing */

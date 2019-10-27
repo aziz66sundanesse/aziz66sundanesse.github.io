@@ -48,13 +48,15 @@ body{
 	/* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
 	/* object-position: 100% 0; */
 	
-	width: 347px;
+	width: 218px;
     height: 218px;
     
-    border-radius: 25px;
-
-    
+    border-radius: 25px; 
   }
+
+.media-body{
+    padding-left: 40px;
+}
 
   /* modal event */
   .modal-lg, .modal-xl {
