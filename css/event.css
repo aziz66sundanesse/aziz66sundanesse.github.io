@@ -63,15 +63,15 @@ body{
     max-width: 1000px;
 }
 
-.modal-content{
+/* .modal-content{
     border-radius: 20px;
-}
+} */
 
 .img-modal-event{
     width: 445px;
-    height: 630px;
+    height: 445px;
     object-fit: cover;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .jud-event{
@@ -93,7 +93,7 @@ body{
 
 
 .konten-event{
-    height: 460px;
+    height: 270px;
     font-family: 'OpenSans', sans-serif;
     font-size: 15px;
     line-height: 1.6;
@@ -103,6 +103,7 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     overflow: auto;
+    padding-right: 30px;
 }
 
 .register{
@@ -130,7 +131,8 @@ body{
 
 .tutup-modal{
     border: none;
-    background-color: transparent;   
+    background-color: transparent;  
+    padding-left: 30px; 
 }
 
 .clear-fix{
