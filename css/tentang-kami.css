@@ -209,7 +209,39 @@ background-position: center top;
 
 
     /* mobile version */
-    @media (max-width: 576px) { 
+    @media (max-width: 576px) {
+        .jumbotron{
+            background-image: url(../images/tentengkami/tentangkami-landing.jpg);
+            border-radius: 0;
+            background-repeat: no-repeat;
+            height: 337px;
+            margin-top: 0px;
+            margin-bottom: 120px;
+
+        
+            /* 		sumbu 		x,y		jika tudak di atuh maka akan fokus ke tengah */
+            background-position: center top;	
+           
+        }
+
+        .jumbotron p{
+            font-family: 'silkasemibold';
+            font-size: 18px;
+            letter-spacing: 0.54px;
+            text-align: left;
+            color: #0083ca;
+            margin-top: 300px;
+        }
+
+        .jumbotron h1{
+            font-family: 'silkabold';
+            font-size: 40px;
+            line-height: 1;
+            text-align: left;
+            color: #0083ca;
+        }
+        
+
         .img-tim{
             object-fit: cover;
     
