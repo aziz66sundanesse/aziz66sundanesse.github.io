@@ -2,25 +2,6 @@
 /* CSS Document */
 
 
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { 
-	#hide-footer{
-		display: none;
-	}
- } */
-
-/* // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
 
 
 
@@ -91,6 +72,8 @@ div.jumbotron.carousel-hero {
 
 }
 
+
+
 /* konten */
 #konten{
 	background-color: #E0EFF0;
@@ -147,6 +130,11 @@ div.jumbotron.carousel-hero {
     text-align: left;
 }
 
+.carousel-item img{
+	width: 100%;
+	display: block;
+}
+
 .dropdown-toggle::after {
 	display:none;	
 }
@@ -194,7 +182,11 @@ div.jumbotron.carousel-hero {
 		column-count: 2;
 
 	}	
+
+	
 }
+
+
 
 
 /* card isi konten utama */
@@ -207,7 +199,7 @@ div.jumbotron.carousel-hero {
 .isi-a{
 	height: 120px !important;
 	/* width: 460px !important; */
-	overflow: hidden;
+	overflow: auto;
 }
 
 /* isi konten kedua */
@@ -278,4 +270,20 @@ div.jumbotron.carousel-hero {
     color:  #0083CA;
 }
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+	.carousel-item img{
+		height: 800px !important;
+		object-fit:cover;
+	}
+
+	.carousel-caption h1{
+		font-family: 'silkabold';
+		font-size: 63px;
+		line-height: 1;
+		letter-spacing: -1.26px;
+		text-align: left;
+		color: #0083ca;
+	}
+}
 
