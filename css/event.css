@@ -166,3 +166,135 @@ body{
         margin-top: 20px;
     }
 }
+
+@media (max-width:576px){
+    /* jumbotron */
+    .jumbotron{
+        background-size: cover;
+        background-image: url(/images/event/landingevent1.png);
+        height: 435px;
+        /* z-index: -1; */
+        background-position: center;
+    }   
+
+    /* icon dropdown kategori */
+    .fa-caret-down:before {
+        margin-left: 15px;
+      }
+
+    /* bulan */
+    .tanggal h3{
+        font-size: 18px;        
+        line-height: 1.44;
+        margin-bottom: 4px;
+    }
+    
+    /* hari */
+    .tanggal h1{
+        font-size: 29px;
+        line-height: 0.9;
+        letter-spacing: 1.74px;
+        margin-bottom: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    /* tahun */
+    .tanggal .tahun{
+        font-size: 10px;
+        line-height: 2.6;
+        margin-bottom: 4px;
+    }
+
+    /* event konten */
+    .media {
+        padding: unset !important;
+    }
+
+    .media .img-event{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+    .media .mr-3{
+        margin-right: 0 !important;
+    }
+
+    .media .media-body{
+        padding-left: 20px;
+    }
+
+    .media-body h6{
+        font-family: 'Open Sans';
+        font-size: 8px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: 0.08px;
+        text-align: left;
+        color: #0083ca;
+    }
+
+    .media-body h4{
+        font-family: 'silkasemibold';
+        font-size: 10px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: -0.05px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .media-body .judul{
+        font-family: 'silkasemibold';
+        font-size: 10px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: -0.05px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .media-body .ruang{
+        font-family: 'Open Sans';
+        font-size: 8px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        text-align: left;
+        color: #9a9b9f;
+    }
+
+    .media-body p{
+        display: none;
+    }
+
+    .media-body a{
+        font-family: 'silkabold';
+        font-size: 8px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.24px;
+        text-align: left;
+        color: #ffbe53;
+    }
+
+    .page-link {
+        font-family: 'Open Sans';
+        font-size: 10px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #9a9b9f;
+    }
+}
