@@ -70,3 +70,70 @@ body{
 .btn{
         padding: 0px;
 }
+
+    @media(max-width:576px){
+        .jumbotron{
+            background-size: cover;
+            background-image: url(/images/kontak/peta@2x.png);
+            height: 615px;
+            /* z-index: -1; */
+            border-radius: 0;
+            background-position: -500px 10px;
+
+            }
+
+        .jumbotron h1{
+            font-family: 'silkabold';
+            font-size: 63px;
+            line-height: 1;
+            letter-spacing: -1.26px;
+            color: white;
+            margin-top: 20px;
+        }            
+
+        .jumbotron p{
+            font-family: 'Open Sans';
+            font-size: 14px;
+            line-height: 1.43;
+            color: white;
+        }
+
+        .kontak .row{
+            margin-right: 3%;
+            margin-left: 3%;
+            /* border-top-right-radius: 15px !important;
+            border-top-left-radius: 15px !important; */
+        }
+
+        .teks-kontak {
+            margin-top: 3%;
+        }
+
+        .kontak-informasi{
+            border-bottom-right-radius: 15px !important;
+            border-bottom-left-radius: 15px !important;
+            border-top-right-radius: 0 !important;
+            padding-bottom: 5%;
+        }
+
+        .rounded-lg{
+            border-radius: 15px !important;
+        }
+
+        .kontak .submit{
+            margin-top: -70px ;
+            margin-left: 80%;
+        }
+
+        .kontak img{
+            background-color: white;
+        }
+
+        .kontak button{
+            float: right;
+        }
+
+        .pesan label{
+            margin-bottom: 80px;
+        }
+    }
