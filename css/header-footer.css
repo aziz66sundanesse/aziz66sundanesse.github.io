@@ -1,41 +1,4 @@
-/* mobile version */
-@media (max-width: 576px) { 
-	#hide-footer{
-		display: none;
-	}
 
-	#hide-sidebar{
-		display: none;
-	}
-
-	.navbar-collapse{
-		background-color: #fff;
-	}
-
-	/* footer logo */
-	#footer-logo{
-		float: left;
-		padding-right: 30px;
-	}
-
-	/* .text-footer{
-		display: inline;
-		font-size: 9px !important;
-		padding-left: 20px;
-
-	} */
-
-	/* .fa-caret-down:before {
-		margin-left: 0px;
-	} */
- }
-
- /* dekstop version */
- @media (min-width: 992px) {
-	.navbar-brand{
-		margin-right: 85px;
-	}
- }
 
 /* scrolbar */
 ::-webkit-scrollbar {
@@ -464,4 +427,45 @@ aside{
 	}
 } */
 
+/* mobile version */
+@media (max-width: 576px) { 
+	#hide-footer{
+		display: none;
+	}
 
+	#hide-sidebar{
+		display: none;
+	}
+
+	.navbar-collapse{
+		background-color: #fff;
+	}
+
+	/* footer logo */
+	#footer-logo{
+		float: left;
+		padding-right: 30px;
+	}
+
+	/* .text-footer{
+		display: inline;
+		font-size: 9px !important;
+		padding-left: 20px;
+
+	} */
+
+	/* .fa-caret-down:before {
+		margin-left: 0px;
+	} */
+
+	.fa-caret-down:before {
+		margin-left: 10px;
+	}
+ }
+
+ /* dekstop version */
+ @media (min-width: 992px) {
+	.navbar-brand{
+		margin-right: 85px;
+	}
+ }
