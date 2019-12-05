@@ -68,7 +68,6 @@ aside{
   }
 
   .judul{
-    width: 355px;
     height: 51px;
     font-family: 'silkasemibold';
     font-size: 20px;
@@ -120,7 +119,6 @@ aside{
   }
 
   .tag{
-    height: 17px;
     font-family: 'Open Sans';
     font-size: 12px;
     font-weight: 600;
@@ -153,7 +151,7 @@ aside{
     }
 
     .media .gambar{
-      width: 100px;
+      width: 100px !important;
       height: 100px;
       border-radius: 10px !important;
       margin-left: 10%;
@@ -195,7 +193,7 @@ aside{
       line-height: 1.4;
     }
 
-    .media p{
+    .media p, .media .isi{
       display: none;
     }
 
@@ -210,8 +208,8 @@ aside{
       line-height: 1.4;
     }
 
-    .img-fluid {
-      max-width: unset;
+    .media .img-fluid {
+      max-width: none;
       
     }
 
