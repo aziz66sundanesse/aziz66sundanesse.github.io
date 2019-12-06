@@ -101,30 +101,7 @@
 
 }
 
-@media (max-width: 576px) { 
-    /* .scrolling-wrapper{
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
-    } */
 
-    
-    /* .card{
-        display: inline-block;
-        height: 220px;
-        width: 170px;  
-    } */
-
-    /* .card {
-        max-width: 170px;
-      } */
-
-    /* .card-title{
-        display: inline;
-
-
-    } */
- }
 
  #dropdown-toggle {
     width: 255px !important;
@@ -146,3 +123,69 @@
 .pb-1, .py-1 {
     padding-top: 6px;
 }
+
+@media (max-width: 576px) { 
+    .jumbotron{
+        background-size: cover;
+        background-image: url(/images/pustaka/landingpustaka1.png);
+        height: 400px;
+        /* z-index: -1; */
+        background-position: 30% 50%;
+    }
+
+
+    .jumbotron h1{
+        font-family: 'silkabold';
+        font-size: 63px;
+        line-height: 1;
+        letter-spacing: -1.26px;
+        text-align: left;
+        color: #ffbe53;
+    }
+
+    .jumbotron p{
+        font-family: 'Open Sans';
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: -0.28px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .hiv h3, .publikasi h3, .regulasi h3{
+        font-family: 'silkabold';
+        font-size: 40px;
+        color: #0c59b0;
+    }
+
+    .hiv p, .publikasi p, .regulasi p{
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 1.5;
+        color: #707070;
+    }
+
+    .hiv .learn-more{
+        width: 53%;
+
+    }
+
+    .clearfix .pl-3{
+        padding-left: 0 !important;
+    }
+
+    /* .publikasi h3{
+        font-family: 'silkabold';
+        font-size: 40px;
+        color: #0c59b0;
+    }
+
+    .publikasi p{
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 1.5;
+        color: #707070;
+    }
+
+    .regulasi */
+ }
