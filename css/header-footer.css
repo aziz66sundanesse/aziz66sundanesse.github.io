@@ -226,13 +226,13 @@ aside{
 	width: 24px;
 }
 
-.form-sub{
+.form-sub input{
 	
 	display:inline-block;
 	width: 80%;
 	height: calc(1.5em + .75rem + 2px);
 	padding: 0;
-	font-size: 1rem;
+	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.5;
 	color:black;
@@ -274,7 +274,7 @@ aside{
 	color: #757679;
 }
 
-.submit{
+.form-sub button{
 	background-color: transparent;
 	border: none;
 }
