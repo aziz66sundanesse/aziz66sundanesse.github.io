@@ -451,3 +451,41 @@ input[type="radio"]:disabled + .label-text:before{
   .dataTables_length{
 	  display: none;
   }
+
+  div.dt-searchPanes {
+    flex-direction: column;
+    height: 520px;
+}
+
+
+
+/* Layout for the Searchpane */
+div.searchGrid {
+    display: flex;
+    width: 100%;
+
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+	align-content: flex-start;
+    align-items: stretch;
+}
+
+div.searchPanes {
+    flex: 1 1 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div.searchTable {
+    flex: 1 1 auto;
+    padding-right: 1em;
+}
+
+.pane .title{
+	font-size: 12px !important;
+}
+
+.pane .scroller{
+	font-size: 12px;
+}
