@@ -148,7 +148,7 @@
                            
             </div>
             <hr class="batas">
-            <div class="searchPanes"></div>
+            <!-- <div class="searchPanes"></div> -->
 
             <div id="accordion" class="accordion">
                 <div class="card mb-0">
@@ -179,50 +179,51 @@
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" checked> <span class="label-text">Kebijakan</span>
+                          <input id="kebijakan" type="checkbox" name="kebijakan" onchange="filterKebijakan()"> <span class="label-text">Kebijakan</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" > <span class="label-text">Bio-Medis</span>
+                          <input id="bioMedis" type="checkbox" name="bioMedis" onchange="filterBioMedis()" > <span class="label-text">Bio-Medis</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" checked> <span class="label-text">Sosial-Perilaku</span>
+                          <input id="sosialPerilaku" type="checkbox" name="sosialPerilaku" onchange="filterSosialPerilaku()"> <span class="label-text">Sosial-Perilaku</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" > <span class="label-text">Lecture-Series</span>
+                          <input id="lectureSeries" type="checkbox" name="lectureSeries" onchange="filterLectureSeries()"> <span class="label-text">Lecture-Series</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" checked> <span class="label-text">Workshop</span>
+                          <input id="workshop" type="checkbox" name="workshop" onchange="filterWorkshop()"> <span class="label-text">Workshop</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" > <span class="label-text">Pelatihan</span>
+                          <input id="pelatihan" type="checkbox" name="pelatihan" onchange="filterPelatihan()"> <span class="label-text">Pelatihan</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" > <span class="label-text">Fun Sharing Day</span>
+                          <input id="funSharingDay" type="checkbox" name="funSharingDay" onchange="filterFunSharingDay()"> <span class="label-text">Fun Sharing Day</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" checked> <span class="label-text">Khursus Online</span>
+                          <input id="khursusOnline" type="checkbox" name="khursusOnline" onchange="filterKhursusOnline()"> <span class="label-text">Khursus Online</span>
                         </label>
                       </div>
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" > <span class="label-text">Pertemuan</span>
+                          <input id="pertemuan" type="checkbox" name="pertemuan"  onchange="filterPertemuan()"> <span class="label-text">Pertemuan</span>
                         </label>
                       </div>
                     </div>
+
                     <!-- Tahun Mulai -->
                     <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                         <a class="card-title">
@@ -250,7 +251,8 @@
                       </div>
                     </div>
                 </div>
-            </div>  
+            </div> 
+            <div class="searchPanes"></div> 
             <hr class="batas">         
           </div>
         </div>
@@ -285,71 +287,71 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="tbl-keg "><a, href="">orem, ipsum dolor.</a></td>
-                        <td>System Architect</td>
+                        <td class="tbl-keg "><a href="">orem, ipsum dolor.</a></td>
+                        <td>pertemuan</td>
                         <td>Edinburgh</td>
                         <td>61</td>
                         
                       </tr>
                       <tr>
                         <td class="tbl-keg "><a href="">nam.</a></td>
-                        <td>lorem10</td>
+                        <td>Kebijakan</td>
                         <td> Ea, iste?</td>
                         <td>61</td>
                         
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Garrett Winters</a></td>
-                          <td>Accountant</td>
+                          <td>Bio-Medis</td>
                           <td>Tokyo</td>
                           <td>63</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Ashton Cox</a></td>
-                          <td>Junior Technical Author</td>
+                          <td>Sosial-Perilaku</td>
                           <td>San Francisco</td>
                           <td>66</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Cedric Kelly</a></td>
-                          <td>Senior Javascript Developer</td>
+                          <td>Lecture-Series</td>
                           <td>Edinburgh</td>
                           <td>22</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Airi Satou</a></td>
-                          <td>Accountant</td>
+                          <td>Workshop</td>
                           <td>Tokyo</td>
                           <td>33</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Brielle Williamson</a></td>
-                          <td>Integration Specialist</td>
+                          <td>Pelatihan</td>
                           <td>New York</td>
                           <td>61</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Herrod Chandler</a></td>
-                          <td>Sales Assistant</td>
+                          <td>Fun Sharing Day'</td>
                           <td>San Francisco</td>
                           <td>59</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Rhona Davidson</a></td>
-                          <td>Integration Specialist</td>
+                          <td>Khursus Online</td>
                           <td>Tokyo</td>
                           <td>55</td>
                           
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Colleen Hurst</a></td>
-                          <td>Javascript Developer</td>
+                          <td>Pertemuan</td>
                           <td>San Francisco</td>
                           <td>39</td>
                           
@@ -880,11 +882,80 @@
             $('#publikasi').DataTable();
         } );
       </script>
+      <script>
+        $(document).ready(function() {
+          otable = $('#hiv').dataTable();
+        });        
+        
+        function filterKebijakan() {
+          var kebijakan = $('input:checkbox[name="kebijakan"]:checked').map(function() {
+            return this.value === 'on' ? 'Kebijakan' : 'N';
+          }).get().join('|');
+          otable.fnFilter(kebijakan, [1], true, false, false, false);         
+        }
+
+        function filterBioMedis() {
+          var bioMedis = $('input:checkbox[name="bioMedis"]:checked').map(function() {
+            return this.value === 'on' ? 'Bio-Medis' : 'N';
+          }).get().join('|');
+          otable.fnFilter(bioMedis, [1], true, false, false, false);
+        }
+
+        function filterSosialPerilaku(){
+          var sosialPerilaku = $('input:checkbox[name="sosialPerilaku"]:checked').map(function() {
+            return this.value === 'on' ? 'Sosial-Perilaku' : 'N';
+          }).get().join('|');
+          otable.fnFilter(sosialPerilaku, [1], true, false, false, false);
+        }
+
+        function filterLectureSeries(){
+          var lectureSeries = $('input:checkbox[name="lectureSeries"]:checked').map(function() {
+            return this.value === 'on' ? 'Lecture-Series' : 'N';
+          }).get().join('|');
+          otable.fnFilter(lectureSeries, [1], true, false, false, false);
+        }
+
+        function filterWorkshop(){
+          var workshop = $('input:checkbox[name="workshop"]:checked').map(function() {
+            return this.value === 'on' ? 'Workshop' : 'N';
+          }).get().join('|');
+          otable.fnFilter(workshop, [1], true, false, false, false);
+        }
+
+        function filterPelatihan(){
+          var pelatihan = $('input:checkbox[name="pelatihan"]:checked').map(function() {
+            return this.value === 'on' ? 'Pelatihan' : 'N';
+          }).get().join('|');
+          otable.fnFilter(pelatihan, [1], true, false, false, false);
+        }
+
+        function filterFunSharingDay(){
+          var funSharingDay = $('input:checkbox[name="funSharingDay"]:checked').map(function() {
+            return this.value === 'on' ? 'Fun Sharing Day' : 'N';
+          }).get().join('|');
+          otable.fnFilter(funSharingDay, [1], true, false, false, false);
+        }
+
+        function filterKhursusOnline(){
+           var khursusOnline = $('input:checkbox[name="khursusOnline"]:checked').map(function() {
+            return this.value === 'on' ? 'Khursus Online' : 'N';
+          }).get().join('|');
+          otable.fnFilter(khursusOnline, [1], true, false, false, false);
+        }
+
+        function filterPertemuan(){
+           var pertemuan = $('input:checkbox[name="pertemuan"]:checked').map(function() {
+            return this.value === 'on' ? 'Pertemuan' : 'N';
+          }).get().join('|');
+          otable.fnFilter(pertemuan, [1], true, false, false, false);
+        }
+        
+      </script>
       <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
       <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
       <script src="js/dataTables.searchPane.min.js"></script>
 
-      <script>
+      <!-- <script>
           $(document).ready(function(){
               $(".check").click(function(){
                   $("#ceklis").prop("checked", true);
@@ -893,6 +964,6 @@
                   $("#ceklis").prop("checked", false);
               });
           });
-        </script>
+        </script> -->
   </body>
 </html>
