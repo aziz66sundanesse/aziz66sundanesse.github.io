@@ -161,7 +161,7 @@
                     <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
                       <div class="form-check">
                         <label>
-                          <input id="ceklis" type="checkbox" name="check" checked> <span class="label-text">Option 01</span>
+                          <input id="ceklis" type="checkbox" name="Judul Dokumen" value="Test" > <span class="label-text">Test</span>
                         </label>
                       </div>
                     </div>
@@ -287,9 +287,9 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="tbl-keg "><a href="">orem, ipsum dolor.</a></td>
-                        <td>pertemuan</td>
-                        <td>Edinburgh</td>
+                        <td class="tbl-keg "><a href="">test</a></td>
+                        <td>Pertemuan</td>
+                        <td>test</td>
                         <td>61</td>
                         
                       </tr>
@@ -297,14 +297,14 @@
                         <td class="tbl-keg "><a href="">nam.</a></td>
                         <td>Kebijakan</td>
                         <td> Ea, iste?</td>
-                        <td>61</td>
+                        <td>test</td>
                         
                       </tr>
                       <tr>
                           <td class="tbl-keg "><a href="">Garrett Winters</a></td>
                           <td>Bio-Medis</td>
                           <td>Tokyo</td>
-                          <td>63</td>
+                          <td>test</td>
                           
                       </tr>
                       <tr>
@@ -322,7 +322,7 @@
                           
                       </tr>
                       <tr>
-                          <td class="tbl-keg "><a href="">Airi Satou</a></td>
+                          <td class="tbl-keg "><a href="">Test</a></td>
                           <td>Workshop</td>
                           <td>Tokyo</td>
                           <td>33</td>
@@ -343,7 +343,7 @@
                           
                       </tr>
                       <tr>
-                          <td class="tbl-keg "><a href="">Rhona Davidson</a></td>
+                          <td class="tbl-keg "><a href="">Test</a></td>
                           <td>Khursus Online</td>
                           <td>Tokyo</td>
                           <td>55</td>
@@ -357,7 +357,7 @@
                           
                       </tr>
                       <tr>
-                          <td class="tbl-keg "><a href="">Sonya Frost</a></td>
+                          <td class="tbl-keg "><a href="">Test</a></td>
                           <td>Software Engineer</td>
                           <td>Edinburgh</td>
                           <td>23</td>
@@ -972,6 +972,17 @@
                 var tabel = $('#hiv').DataTable();
 
                 $('input:checkbox').on('change',function(){
+
+                  
+
+
+                  var judDok = $('input:checkbox[name="Judul Dokumen"]:checked').map(function(){
+                    return this.value;
+                  }).get().join('|');
+
+                  //  filter kolomm ke 2
+                  tabel.column(0).search(judDok,true,false,false).draw(false);
+
                   var kategori = $('input:checkbox[name="kategori"]:checked').map(function(){
                     return '^' + this.value +'$';
                   }).get().join('|');
@@ -979,6 +990,9 @@
                   //  filter kolomm ke 1
                   tabel.column(1).search(kategori,true,false,false).draw(false);
                 });
+
+              
+
               }) ;
         } );
       </script>
